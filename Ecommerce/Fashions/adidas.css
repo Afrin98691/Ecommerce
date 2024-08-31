@@ -1,0 +1,122 @@
+#ultraboost{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-weight: 700;
+}
+
+#shopbutton{
+    position: absolute;
+    top: 66%;
+    left: 13%;
+    padding: 10px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.hero-section img:hover{
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: center;
+    color:white;
+    font-weight: 500;
+    font-size:xx-large;
+    margin-top: 20px;
+}
+.product-info h4{
+    font-size: x-large;
+    color:blueviolet;
+}
+.product-info p{
+    color:white;
+    font-size: 30;
+    margin-bottom: 10px;
+}
+
+.products{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+.product-info{
+    background-color: rgb(84, 212, 77);
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.product-info button{
+    background: aqua;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    width: 100%;
+    font-weight: 500;
+
+}
+
+.product-info button:hover{
+    background-color:darkkhaki;
+    cursor: pointer;
+}
+
+.product-info button{
+    height: 30px;
+    width: 280px;
+    border-radius: 5px;
+}
+
+.product-card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product-card{
+    background-color:black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    overflow: hidden;
+    transition: transform 50.0s, box-shadow 0.3s;
+    flex: 1 1 300px;
+    max-width: 700px;
+}
+
+.product-card:hover{
+    transform: translataY(-20px);
+    border: 10px solid brown;
+}
+
+#shoe1:hover{
+    content: url(/Images/shoe1-1.avif);
+}
+
+#shoe2:hover{
+    content: url(/Images/shoe2-2.avif);
+}
+
+#shoe3:hover{
+    content: url(/Images/shoe3-1.avif);
+}
+
+#shoe4:hover{
+    content: url(/Images/tshirt1-2.avif);
+}
+
+#shoe5:hover{
+    content: url(/Images/tshirt2-1.avif);
+}
+
+#shoe6:hover{
+    content: url(/Images/pant1-2.avif);
+}

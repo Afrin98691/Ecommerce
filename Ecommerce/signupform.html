@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0">
+        <title>Registration Form</title>
+        <style>
+            h1{
+                color: deeppink;
+            }
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                font-family: 'Samsung Sharp Sans', sans-serif;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="">
+         <table>
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input type="text"  required placeholder="Ex:Afrin" name="fn"/><br /></td>
+            </tr>
+            <tr>
+                <td><label>Last Name</label></td>
+                <td><input type="text" required placeholder="Ex:shaik" name="sn"/><br /></td>
+            </tr>
+            <tr>
+                <td><label>Mobile</label></td>
+                <td><input type="tel"  required placeholder="Ex:934841602" name="mobile"/><br /></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email"  required placeholder="Ex:Afrin@gmail.com" name="email"/><br /></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td> <input type="password"  required placeholder="minimum 5 characters" name="password"/><br /></td>
+            </tr>
+            <tr>
+                <td><label>Confirm Password</label></td>
+                <td><input type="password"  required placeholder="minimum 5 characters" name="password"/><br /></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="gender" value="male"/>Male
+                <input type="radio" name="gender" value="female"/>Female
+                <input type="radio" name="gender" value="custom"/>Custom <br /></td>
+            </tr>
+            <tr>
+                <td><label>Delivery Mode</label></td>
+                <td><input type="radio" name="delivery" value="on"/>Online
+                <input type="radio" name="delivery" value="off"/>Offline</td><br />
+            </tr>
+            <tr>
+                <td><label>Comments</label><br />
+                    <textarea name="id" cols="30" rows="5"></textarea></td>
+               </tr><br />
+
+         </table>   
+             <input type="reset">
+               
+               
+            <input type="submit">
+             
+       
+        
+        </form>
+    </body>
+</html>
